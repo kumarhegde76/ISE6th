@@ -3,12 +3,12 @@ import java.util.*;
 
 public class MainClass{
     public static void main(String args[]){
-        ArrayList<Contact> phonebook = new ArrayList<Contact>(); // this is the collection of contacts in the phonebook
-        phonebook.add(new Contact("Kaneki",995642142));
-        phonebook.add(new Contact("Tanjirou",99565754));
-        phonebook.add(new Contact("Hinata",95654846));
+        ArrayList<Contact> phonebook = new ArrayList<Contact>(); //Collection
+        phonebook.add(new Contact("Kiran",96327708));
+        phonebook.add(new Contact("jyothi",87625986));
+        phonebook.add(new Contact("Sharan",76769162));
 
-        ArrayList<MissedCalls> record = new ArrayList<MissedCalls>(); // to keep the record of missed calls
+        ArrayList<MissedCalls> record = new ArrayList<MissedCalls>(); //list for missed calls
         Calendar c = Calendar.getInstance();
 
         int count = 0;      // to count the number of missed calls in the record
